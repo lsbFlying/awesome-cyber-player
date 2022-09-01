@@ -24,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lib": "npx rimraf es && npx webpack-cli --config build-lib/build.webpack.config.js && npx typescript@4.1.2 -p tsconfig.lib.json",
+    "prepublishOnly": "npm run lib"
   },
   "browserslist": {
     "production": [
