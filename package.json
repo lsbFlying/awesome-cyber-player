@@ -1,6 +1,6 @@
 {
   "name": "awesome-cyber-player",
-  "version": "0.0.5",
+  "version": "0.0.6-alpha.1",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -24,10 +24,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "publish-beta": "npm publish --tag beta",
-    "lib": "npx rimraf es && npx webpack-cli --config build-lib/build.webpack.config.js && npx typescript@4.1.2 -p tsconfig.lib.json",
-    "prepublishOnly": "npm run lib"
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
