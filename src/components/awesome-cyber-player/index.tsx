@@ -30,7 +30,7 @@ export default class AwesomeCyberPlayer extends React.PureComponent<AwesomeCyber
   }
 
   render() {
-    console.log("alpha.1");
+    console.log("alpha.2");
     const { className, style, id } = this.props;
     const { statusId } = this.state;
     return (
